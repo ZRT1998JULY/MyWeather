@@ -305,7 +305,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    private void setTemp(){
+   /* private void setTemp(){
         WeatherActivity activity=new WeatherActivity();
        // findCounty(location);
         // weatherId=findWeatherId();
