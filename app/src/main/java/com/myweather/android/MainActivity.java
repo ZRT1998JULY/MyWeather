@@ -305,17 +305,17 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-  /*  private void setTemp(){
+    private void setTemp(){
         WeatherActivity activity=new WeatherActivity();
-        findCounty(location);
-         weatherId=findWeatherId();
+       // findCounty(location);
+        // weatherId=findWeatherId();
          activity.requestWeather(weatherId);
           Weather MainWeather=activity.ReturnWeather();
           String degree = MainWeather.now.temperature + "℃";
          mytemp.setText(degree);
     }
 
-    private void findCounty(final String location) {
+    /*private void findCounty(final String location) {
         String address = "https://free-api.heweather.com/s6/search?location=" + location +
                 "&key=b0993c8c443641b4aecaf5612abe667d";
         HttpUtil.sendOkHttpRequest(address, new Callback() {
